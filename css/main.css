@@ -1,0 +1,110 @@
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+body {
+    background-color: orange;
+    color: white;
+}
+
+li {
+    text-align: center;
+}
+
+.bakbak {
+    font-family: 'Bakbak One', cursive;
+}
+
+nav {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#info {
+    text-align: center;
+    margin-bottom: 8vmin;
+}
+
+#copyright {
+    text-align: center;
+    padding: 3vmin;
+}
+
+#linkedin {
+    height: 10vmin;
+}
+
+#gmail {
+    height: 10vmin;
+    border-radius: 50%;
+}
+
+#github {
+    height: 8.5vmin;
+    border-radius: 50%;
+}
+
+#contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vmin;
+}
+
+.photo {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 30vmin;
+    width: 30vmin;
+}
+
+ul {
+    display: grid;
+    justify-content: center;
+    width: 90vmin;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50vmin, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+div img {
+    height: 10vmin;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4vmin;
+}
+
+p {
+    text-align: center;
+}
+
+.photo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vmin;
+}
